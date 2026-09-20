@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://live.greatsouthern.website/great-southern-software-github-io/sitemap.xml
