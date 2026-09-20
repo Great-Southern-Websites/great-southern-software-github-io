@@ -1,15 +1,99 @@
 ---
-title: "Home"
-description: "BUILDER: one-sentence description of the business for search engines."
+title: "Wattle Street Vet"
+description: "Wattle Street Vet is a small, independent animal clinic in Mount Eliza. Consultations, vaccinations, dentistry and surgery for dogs, cats and rabbits."
 image: logo.png
 layout: default
 ---
-<!-- BUILDER: hero, then the sections that mirror the original home page. -->
 <section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <span class="label">Small animal clinic, Mount Eliza</span>
+      <h1>Caring for Mount Eliza pets since 1998</h1>
+      <p class="lead">Wattle Street Vet is a small, independent clinic on the Mornington Peninsula. Dr Alice Rendell and our two nurses look after dogs, cats, rabbits and the occasional chook, and we have been doing it from the same little weatherboard building on Wattle Street for more than twenty-five years.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{=site.url('services')}">Our services</a>
+        <a class="btn btn-outline" href="{=site.url('contact')}">How to find us</a>
+      </div>
+    </div>
+    <aside class="clinic-card" aria-label="Opening hours, phone and address">
+      <div class="row">
+        <span class="label">Opening hours</span>
+        <p class="hours-line">Monday to Friday, 8.30am to 6.00pm</p>
+        <p class="small">Closed weekends and public holidays</p>
+      </div>
+      <div class="row">
+        <span class="label">Ring us to book</span>
+        <a class="phone" href="tel:+61355501234">(03) 5550 1234</a>
+        <p class="small">If your animal is unwell today, ring in the morning and we will do our best to fit you in the same day.</p>
+      </div>
+      <div class="row">
+        <span class="label">Where we are</span>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=42+Wattle+Street%2C+Mount+Eliza+VIC+3930">42 Wattle Street, Mount Eliza VIC 3930</a></p>
+      </div>
+      <div class="row">
+        <span class="label">After hours</span>
+        <p class="small">For emergencies outside our hours, please ring the Peninsula animal emergency centre in Mornington. Their number is on our answering machine.</p>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section">
   <div class="container">
-    <p class="eyebrow">Welcome</p>
-    <h1>Wattle Street Vet</h1>
-    <p class="lead">Replace this with the business's own words.</p>
-    <p class="hero-actions"><a class="btn btn-primary" href="{=site.url('contact')}">Contact us</a></p>
+    <div class="section-head">
+      <h2>How we work</h2>
+    </div>
+    <ul class="rows">
+      <li>
+        <h3>A short appointment book</h3>
+        <p>We keep our appointment book short on purpose. That way you see the same vet each visit, and nobody is rushed out the door. If your animal is unwell today, ring us in the morning and we will do our best to fit you in the same day.</p>
+      </li>
+      <li>
+        <h3>A fear-free practice</h3>
+        <p>Cats wait in their own quiet room away from the dogs, consults are unhurried, and we are happy to do a first visit as a simple hello with a handful of treats and no examination at all.</p>
+      </li>
+      <li>
+        <h3>New clients are welcome</h3>
+        <p>Bring any history from your previous vet and we will take it from there.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split wide-left">
+    <div>
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p>Consultations, vaccinations, surgery and dentistry for dogs, cats and rabbits, plus puppy preschool and home visits.</p>
+      </div>
+      <ul class="service-list">
+        <li><a href="{=site.url('services')}#consultations">Consultations</a><span>Twenty minute consults</span></li>
+        <li><a href="{=site.url('services')}#vaccination">Vaccination and health checks</a><span>Annual nose to tail check-ups</span></li>
+        <li><a href="{=site.url('services')}#surgery">Desexing and routine surgery</a><span>Tuesdays and Thursdays</span></li>
+        <li><a href="{=site.url('services')}#dentistry">Dentistry</a><span>Scale and polish, extractions</span></li>
+        <li><a href="{=site.url('services')}#puppy-preschool">Puppy preschool</a><span>Four Wednesday evenings</span></li>
+        <li><a href="{=site.url('services')}#food">Prescription food and flea treatment</a><span>The usual brands, and orders</span></li>
+        <li><a href="{=site.url('services')}#home-visits">Home visits</a><span>Within ten minutes of the clinic</span></li>
+      </ul>
+    </div>
+    <div>
+      <span class="label">Who we see</span>
+      <p class="lead">Dogs, cats, rabbits and the occasional chook.</p>
+      <p>A standard consult runs for twenty minutes, which is longer than most clinics allow, because most problems take longer than ten minutes to explain.</p>
+      <p>Puppy preschool runs over four Wednesday evenings, six puppies at a time, with our nurse Bec. Bookings fill quickly, so ring early.</p>
+      <p>Desexing and routine surgery are done on Tuesdays and Thursdays. Your animal comes in at 8am and goes home the same afternoon.</p>
+      <p><a href="{=site.url('services')}">Read about all our services</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="section closing">
+  <div class="container">
+    <div>
+      <h2>To make an appointment, please ring us</h2>
+      <p>We do not take bookings by email because nobody here reads it quickly enough to be useful. Ring (03) 5550 1234 during opening hours and we will find you a time.</p>
+    </div>
+    <a class="btn btn-primary" href="tel:+61355501234">Ring (03) 5550 1234</a>
   </div>
 </section>

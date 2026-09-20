@@ -1,35 +1,29 @@
 {@io.quarkiverse.roq.frontmatter.runtime.model.Site site}
-<!-- Structured data for search engines (schema.org). BUILDER: fill every field
-     from the business's own details; delete keys you have no real value for.
-     Keep it accurate when contact details, hours or locations change. -->
+<!-- Structured data for search engines (schema.org). Keep it accurate when
+     contact details, hours or locations change. -->
 <script type="application/ld+json">
 {|{
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
+  "@type": "VeterinaryCare",
   "@id": "|}{=site.url.absolute}{|#business",
   "name": "Wattle Street Vet",
   "url": "|}{=site.url.absolute}{|",
   "logo": "|}{=site.url('images/logo.png').absolute}{|",
   "image": "|}{=site.url('images/logo.png').absolute}{|",
-  "description": "BUILDER: one sentence, the same as the home page description.",
-  "telephone": "+61 3 0000 0000",
-  "email": "hello@example.com",
+  "description": "Wattle Street Vet is a small, independent animal clinic in Mount Eliza. Consultations, vaccinations, dentistry and surgery for dogs, cats and rabbits.",
+  "telephone": "+61 3 5550 1234",
+  "email": "info@wattlestreetvet.com.au",
+  "foundingDate": "1998",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "1 Example Street",
-    "addressLocality": "Suburb",
+    "streetAddress": "42 Wattle Street",
+    "addressLocality": "Mount Eliza",
     "addressRegion": "VIC",
-    "postalCode": "3000",
+    "postalCode": "3930",
     "addressCountry": "AU"
   },
   "openingHoursSpecification": [
-    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "17:00" }
-  ],
-  "sameAs": [],
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "name": "Book",
-    "target": "|}{=site.url('contact').absolute}{|"
-  }
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "08:30", "closes": "18:00" }
+  ]
 }|}
 </script>
